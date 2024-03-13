@@ -1,0 +1,73 @@
+td.details-control {
+    cursor: pointer;
+  }
+  tr.shown td.details-control i
+   {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.adduser{
+    /* style="margin-right: 100px;" */
+    width: 450px; 
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
+/* preview Image */
+#preview {
+    margin-left: 400px;
+    width: 150px;
+    height: 150px;
+ }
+
+ /* set one line input control */
+ .oneline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 100px;
+  }
+  
+  /* profile photo */
+  .image--cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    margin: 10px;
+  
+    object-fit: cover;
+    object-position: center right;
+  }
+
+  .alldata{
+    width: 100%;
+    height:100px;
+  }
+
+/* datalist css */
+ul{
+   position: relative;
+   text-align: left;
+}
+
+ul i{
+  position: relative;
+  left: 100px;
+  cursor: pointer;
+}
+
+
+/* validation msg */
+ .errormsg{
+    color: red;
+ }
+
+
+
+  
